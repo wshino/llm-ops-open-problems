@@ -1,0 +1,34 @@
+name: 未解決問題の投稿
+description: 困っていることを雑なままでいいので教えてください
+title: "[problem] "
+labels:
+  - problem
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 困っていること
+      description: 雑なままで大丈夫です。状況が伝わる範囲で書いてください
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境
+      description: OS、ハードウェア、モデル、ツールとバージョンなど、わかる範囲で
+    validations:
+      required: false
+  - type: textarea
+    id: tried
+    attributes:
+      label: 試したこと
+      description: 試して駄目だったことも、そのまま書いてもらえると助かります
+    validations:
+      required: false
+  - type: textarea
+    id: resolution
+    attributes:
+      label: どんな解決なら嬉しいか
+      description: コードでの解決、設計の方針、運用事例の共有など
+    validations:
+      required: false
