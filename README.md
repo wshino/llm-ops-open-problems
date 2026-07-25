@@ -12,17 +12,7 @@
 
 ## いま挙がっている問題
 
-公開準備中のため、初期の問題は seeds/ に下書きとして置いています。公開時に issue 化します。
-
-| # | 問題 |
-|---|---|
-| 1 | [複数の agent runner の完了通知を一元監視できない](seeds/01-agent-notification.md) |
-| 2 | [mlx_lm.server で reasoning 系モデルを serve すると streaming がクライアントを壊す](seeds/02-mlx-reasoning-streaming.md) |
-| 3 | [upstream の CLI 更新のたびにローカルパッチの再適用が必要](seeds/03-upstream-cli-local-patch.md) |
-| 4 | [安いモデルに委譲したタスクの「本質的な見落とし」を検知できない](seeds/04-cheap-model-quality-gate.md) |
-| 5 | [自律 agent loop の自己申告レポートを機械的に検証できない](seeds/05-agent-self-report-verification.md) |
-| 6 | [日本語タスクに特化したローカル LLM の品質ベンチが存在しない](seeds/06-japanese-local-llm-bench.md) |
-| 7 | [subscription 型 LLM の limit 逼迫を予測して routing を切り替えられない](seeds/07-limit-aware-routing.md) |
+[problem ラベルの open issue 一覧](https://github.com/wshino/llm-ops-open-problems/issues?q=is%3Aissue+state%3Aopen+label%3Aproblem) がすべてです。
 
 ## 投稿するとき
 
